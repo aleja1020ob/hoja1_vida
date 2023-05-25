@@ -1,0 +1,103 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 30px;
+  height: 30px;
+  background-color: #948989;
+  
+ 
+
+
+}
+@keyframes animadorDeVidas{
+  0%{
+    transform: scale(.3);
+    background-color: rgba(20, 17, 18, 0.842);
+    border-radius: 50px;
+  }
+  50%{
+    background-color: rgb(190, 177, 161);
+  }
+
+}
+
+
+
+header {
+  background-color: rgb(230, 212, 212);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  animation-name: animadorDeVidas;
+  animation-duration: 3s;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count:initial;
+
+
+  
+}
+
+
+header,h1{
+  color: rgb(20, 17, 17);
+  font-size: 50px;
+}
+h2,
+h3 {
+  margin: 0;
+  color: #333;
+  font-size: 36px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 20px;
+  
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+li {
+  margin-bottom: 10px;
+}
+
+
+p {
+  margin: 0;
+}
+
+a {
+  color: #000000;
+}
+
+section {
+  background-color: rgb(230, 212, 212);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  animation-name: animadorDeVidas;
+  animation-duration: 3s;
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count:initial;
+  
+}
+
+section h3 {
+  color: #0c0b0c;
+  margin-bottom: 10px;
+}
+
+section h4 {
+  color: rgb(39, 36, 36);
+}
+
